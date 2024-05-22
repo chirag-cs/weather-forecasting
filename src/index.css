@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+/* body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  background: linear-gradient(-35deg, #000428 0%, #004e92);
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #ffffff; */
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1); /* Slightly translucent background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add some depth with a shadow */
+  border-radius: 10px; /* Rounded corners for modern look */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+
+p {
+  color: #f0f0f0;
+  margin: 0 0 10px 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00e5ff;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #00bcd4;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00e5ff;
+}
+
+input, textarea {
+  border: 1px solid #00bcd4;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+  color: black;
+}
