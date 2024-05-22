@@ -280,7 +280,7 @@ function App() {
           <Box display="flex" justifyContent="space-between" alignItems="center" sx={{ width: '100%', marginBottom: '1rem' }}>
             <Box component="img" sx={{ height: { xs: '16px', sm: '22px', md: '26px' }, width: 'auto' }} alt="logo" src={Logo} />
             <UTCDatetime />
-            <Link href="https://github.com/chirag-cs/Hiring-hood" target="_blank" underline="none" sx={{ display: 'flex' }}>
+            <Link href="https://github.com/chirag-cs/weather-forecasting" target="_blank" underline="none" sx={{ display: 'flex' }}>
               <GitHubIcon sx={{ fontSize: { xs: '20px', sm: '22px', md: '26px' }, color: 'white', '&:hover': { color: '#2d95bd' } }} />
             </Link>
           </Box>
