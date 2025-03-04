@@ -2,6 +2,7 @@ import { Box, Grid, Typography } from '@mui/material';
 import React from 'react';
 
 const DayWeatherDetails = (props) => {
+  console.log("Chirag: DayWeatherDetails -> props", props)
   return (
     <Grid
       container
